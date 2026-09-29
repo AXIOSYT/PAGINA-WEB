@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Negocio de Huaraches</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img src="logo.jpg" alt="Logo del negocio de huaraches" /></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100083082506880">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="carrito">
+        <h2>Carrito de compras</h2>
+        <ul class="lista-carrito"></ul>
+        <p>Total: $<span class="total"></span></p>
+        <button class="vaciar-carrito">Vaciar carrito</button>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="card">
+          <div class="card-img">
+            <img src="huarache1.jpg.jpg" alt="Huarache 1" />
+          </div>
+          <div class="card-info">
+            <h2>Huarache </h2>
+            <p>Precio: $500</p>
+            <button class="addToCart" data-id="1">Añadir al carrito</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="huarache2.jpg.jpg" alt="Huarache 2" />
+          </div>
+          <div class="card-info">
+            <h2>Huarache </h2>
+            <p>Precio: $550</p>
+            <button class="addToCart" data-id="2">Añadir al carrito</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="huarache3.jpg.jpg" alt="Huarache 3" />
+          </div>
+          <div class="card-info">
+            <h2>Huarache </h2>
+            <p>Precio: $600</p>
+            <button class="addToCart" data-id="3">Añadir al carrito</button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="card-img">
+            <img src="cinturones1.jpg" alt="cinturones" />
+          </div>
+          <div class="card-info">
+            <h2>cinturones</h2>
+            <p>Precio: $350</p>
+            <button class="addToCart" data-id="1">Añadir al carrito</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="patas de cabra.jpg" alt="patas de cabra" />
+          </div>
+          <div class="card-info">
+            <h2>patas de cabra</h2>
+            <p>Precio: $250 </p>
+            <button class="addToCart" data-id="2">Añadir al carrito</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="botines.jpg" alt="botines" />
+          </div>
+          <div class="card-info">
+            <h2>botines</h2>
+            <p>Precio: $1200</p>
+            <button class="addToCart" data-id="3">Añadir al carrito</button>
+          </div>
+        </div>
+      </div>
+      <div class="card-info"></div>
+    <div class="cart-container">
+      <h2>Carrito de compras</h2>
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Subtotal</th>
+            <th>Eliminar</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div class="cart-total">
+        <p>Total: $<span class="total"></span></p>
+        <button class="vaciar-carrito">Vaciar carrito</button>
+        <button class="finalizar-compra">Finalizar compra</button>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <p>A 200 metros de la glorieta hacia la piña frente a la Gasolinera G500, Huimanguillo, Mexico</p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
